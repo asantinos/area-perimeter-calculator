@@ -12,9 +12,11 @@ calculateBtn.addEventListener("click", () => {
   const height = parseFloat(document.getElementById("height").value);
   const width = parseFloat(document.getElementById("width").value);
 
-  let areaResult = height * width;
-  let perimeterResult = 2 * (height + width);
+  if (!isNaN(height) && !isNaN(width)) {
+    let areaResult = height * width;
+    let perimeterResult = 2 * (height + width);
 
-  area.textContent = areaResult;
-  perimeter.textContent = perimeterResult;
+    area.textContent = areaResult;
+    perimeter.textContent = perimeterResult;
+  }
 });
