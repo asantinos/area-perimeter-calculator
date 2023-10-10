@@ -1,6 +1,6 @@
 /**
  * Autor: Alejandro Santos Garcia
- * Github repository: 
+ * Github repository: https://github.com/asantinos/area-perimeter-calculator.git
  */
 
 const area = document.getElementById("area");
